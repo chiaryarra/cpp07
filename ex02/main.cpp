@@ -14,7 +14,7 @@ int main()
             std::cout << a[i] << std::endl;
 
         std::cout << "Tentando acessar fora do limite..." << std::endl;
-        std::cout << a[10] << std::endl;
+        std::cout << a[10] << std::endl;    
     }
     catch (std::exception& e)
     {
